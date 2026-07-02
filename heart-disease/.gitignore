@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+# Data files
+data/
+*.csv
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# CatBoost artifacts
+notebooks/catboost_info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
