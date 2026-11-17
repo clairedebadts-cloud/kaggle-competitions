@@ -42,6 +42,16 @@ In a CRM tool like Braze, the model's risk score can be added to each customer p
  
 One caution: these patterns show who tends to leave, not why. A journey proves it works only when it is tested against a control group that doesn't receive it.
  
+## With real activity data
+ 
+This dataset only shows what each customer has (contract, payment, services), not what they do. In a real CRM setup, behaviour is usually the stronger signal, and the same idea goes further:
+ 
+1. **Learn the rhythm of the best customers.** For example, they buy or sell every few weeks, or log in at least once a month.
+2. **Watch for a missed window.** When a customer goes longer than their usual rhythm without a transaction or action, that is the early warning, often well before they would cancel.
+3. **Start a journey at that moment.** A reminder, a relevant offer or a reason to come back, timed to the gap rather than to a fixed calendar.
+4. **Measure it.** Compare the customers who got the journey with a control group that didn't, and keep only what brings people back.
+Account traits like the ones above then add a second layer: they show who needs that attention most.
+ 
 ## How it was built
  
 For readers who want the detail:
